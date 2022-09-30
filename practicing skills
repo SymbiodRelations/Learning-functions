@@ -1,0 +1,16 @@
+import random;
+###to call random name from array, you have to create a random interger. first, ' import random; '###
+
+ 
+def student_registery():
+  studentlist = ["Mariyah", "Jacobi", "Sindel", "Coco", "Micky", "Ras", "Helga", "Rosa"
+  ]
+  i = random.randint(0, 7)
+  print("This function was also summoned to see " + studentlist[i])
+  
+  
+  student_registery()
+  student_registery()
+  student_registery()
+  student_registery()
+  #function must be called to run: name()# 
